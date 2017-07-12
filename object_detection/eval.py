@@ -43,6 +43,7 @@ Example usage:
         --model_config_path=model_config.pbtxt \
         --input_config_path=eval_input_config.pbtxt
 """
+import gpumemory
 import functools
 import tensorflow as tf
 

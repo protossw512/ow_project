@@ -40,7 +40,7 @@ Example usage:
         --train_config_path=train_config.pbtxt \
         --input_config_path=train_input_config.pbtxt
 """
-
+import gpumemory
 import functools
 import json
 import os
